@@ -42,7 +42,7 @@ npm run prod
 ```
 ---
 
-## Instructor's Portal
+<!-- ## Instructor's Portal
 
 <img src="img/login_i.png">
 
@@ -151,4 +151,4 @@ npm run prod
 - [x] **[validator](https://github.com/chriso/validator.js)**
 - [x] **[cors]()**
 - [x] **[jsonwebtoken]()**
-- [x] **[body-parser]()**
+- [x] **[body-parser]()** -->
