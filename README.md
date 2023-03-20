@@ -16,11 +16,11 @@ cd E-Learning-MERN && npm install
 cd E-Learning-MERN && cd client && npm install
 
 ```
-Create account in Mongo Atlas and create cluster. Get your MongoURI by following the instructions and add it in keys.js file which is inside the config folder. 
+<!-- Create account in Mongo Atlas and create cluster. Get your MongoURI by following the instructions and add it in keys.js file which is inside the config folder. 
 
 ```
 secretOrKey=ANY_SECRET
-mongoURI: 'YOUR_URI'
+mongoURI: 'YOUR_URI' -->
 
 ```
 
