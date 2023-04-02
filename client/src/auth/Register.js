@@ -40,20 +40,28 @@ class Register extends Component {
       role:  this.props.match.params.role
     };
 
-    // console.log(newUser);
-
     axios
       .post("http://localhost:5000/users/register", newUser)
       .then(res => console.log(res.data))
       .catch(err => this.setState({ errors: err.response.data }));
-      this.props.history.push("/login/"+this.props.match.params.role)
+    
+
+    // this.props.registerUser(newUser, this.props.history);
+    //  redirect me to login page if no error occurs
     //call registerUser action and pass user data in argument
-   // this.props.registerUser(newUser, this.props.history);
+    // this.props.registerUser(newUser, this.props.history);
   }
 
   componentWillReceiveProps(nextProps) {
+    // if (nextProps.auth.users.role == "student") {
+    //   this.props.history.push("/login/"+this.props.match.params.role)
+    // }
     if (nextProps.errors) {
       this.setState({ errors: nextProps.errors });
+    }
+    else
+    {
+      this.props.history.push("/login/"+this.props.match.params.role)
     }
   }
 
@@ -77,7 +85,7 @@ class Register extends Component {
                       width="60px"
                       className="sticky-logo img-fluid"
                     />
-                    <h3>KnowHow</h3>
+                    <h3>EduMe</h3>
                   </div>
                   <h4 className="mb-3 f-w-400">Sign up into your account</h4>
                   <form noValidate onSubmit={this.onSubmit}>

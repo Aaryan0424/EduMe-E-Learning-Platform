@@ -120,19 +120,6 @@ class Login extends Component {
                         </div>
                       )}
                     </div>
-                    {/* <div className="saprator">
-                      <span>OR</span>
-                    </div> */}
-                    {/* <button className="btn btn-facebook mb-2 mr-2">
-                      <i className="fab fa-facebook-f" />
-                      facebook
-                    </button> */}
-
-                   
-      {/* //               <button className="btn btn-twitter mb-2 mr-2">
-      //                 <i className="fab fa-twitter" />
-      //                 Twitter
-      //               </button> */}
                          <div className="form-group text-left mt-2">
                          <div className="checkbox checkbox-fill d-inline">
                          <input
@@ -156,15 +143,7 @@ class Login extends Component {
                       Login
                     </button>
                   </form>
-                  {/* <p className="mb-2 text-muted">
-                    Forgot password?{" "}
-                    <a
-                      href={`${process.env.PUBLIC_URL}/forgot-password`}
-                      className="f-w-400"
-                    >
-                      Reset
-                    </a>
-                  </p> */}
+
                   <p className="mb-0 text-muted">
                     Don’t have an account?{" "}
                     <a
