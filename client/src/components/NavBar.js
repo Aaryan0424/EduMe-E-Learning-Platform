@@ -188,6 +188,13 @@ class NavBar extends Component {
             </ul>
           </li>
           <li>
+                <a
+                  href={`${process.env.PUBLIC_URL}/EnrollmentList`}
+                >
+                  ENROLLED USERS
+                </a>
+          </li>
+          <li>
             <a href={`${process.env.PUBLIC_URL}/finaldashboard`}>PROFILE</a>{" "}
           </li>
           {/* <li>
