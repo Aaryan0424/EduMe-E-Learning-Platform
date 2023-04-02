@@ -79,7 +79,7 @@ class ServiceDetailsLeftSidebar extends Component{
                     </div>
 
                 {/* Brand logo */}
-                <BrandLogoSlider background = "grey-bg" />
+                {/* <BrandLogoSlider background = "grey-bg" /> */}
 
                 {/* Footer */}
                 <Footer/>

@@ -52,11 +52,11 @@ class Services extends Component {
                     `${val._id}`
                   }
                 >
-                  <img
+                  {/* <img
                     src={val.courseImage}
                     className="img-fluid"
                     alt="Service Grid"
-                  />
+                  /> */}
                 </a>
               </div>
               {/* <div className="icon">
@@ -128,7 +128,7 @@ class Services extends Component {
         {/*====================  End of service page content  ====================*/}
 
         {/* Brand logo */}
-        <BrandLogoSlider background="grey-bg" />
+        {/* <BrandLogoSlider background="grey-bg" /> */}
 
         {/* Footer */}
         <Footer />
