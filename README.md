@@ -42,6 +42,10 @@ npm run prod
 ```
 ---
 
+## Workflow
+
+<img src="Workflow_EduMe.jpg">
+
 <!-- ## Instructor's Portal
 
 <img src="img/login_i.png">
